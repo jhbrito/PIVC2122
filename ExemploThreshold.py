@@ -3,12 +3,11 @@ from cv2 import cv2 as cv2
 import os
 
 folder = "images"
-
 img = cv2.imread(os.path.join(folder, "moedas.jpg"))
-
 window_name = "Moedas"
 cv2.namedWindow(window_name)
 cv2.imshow("Moedas", img)
+
 
 def on_trackbar_change(val):
     ret, img_threshold = cv2.threshold(img, val, 255, 0)
