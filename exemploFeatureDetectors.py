@@ -1,5 +1,3 @@
-from email.mime import image
-
 import cv2
 
 imagem = cv2.imread("Sharbat_Gula.jpg")
