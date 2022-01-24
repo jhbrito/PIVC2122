@@ -28,8 +28,8 @@ def on_trackbar_canny_max(val):
     cv2.imshow("Moedas Canny", edges)
 
 cv2.namedWindow("Moedas Canny")
-cv2.createTrackbar("canny_thresh_min", "Moedas Canny", canny_thresh_min, 255, on_trackbar_canny_min)
-cv2.createTrackbar("canny_thresh_max", "Moedas Canny", canny_thresh_max, 255, on_trackbar_canny_max)
+cv2.createTrackbar("canny_thresh_min", "Moedas Canny", canny_thresh_min, 1024, on_trackbar_canny_min)
+cv2.createTrackbar("canny_thresh_max", "Moedas Canny", canny_thresh_max, 1024, on_trackbar_canny_max)
 cv2.imshow("Moedas Canny", edges)
 cv2.waitKey()
 
