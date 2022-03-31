@@ -6,6 +6,7 @@
 
 # Import TensorFlow and TensorFlow Datasets
 import tensorflow as tf
+import tensorflow.keras
 import tensorflow_datasets as tfds
 import math
 import numpy as np

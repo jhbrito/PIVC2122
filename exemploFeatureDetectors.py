@@ -1,6 +1,6 @@
 import cv2
 
-imagem = cv2.imread("Sharbat_Gula.jpg")
+imagem = cv2.imread("images/Sharbat_Gula.jpg")
 cv2.imshow("Imagem", imagem)
 
 imagem_gray = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)

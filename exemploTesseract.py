@@ -4,7 +4,7 @@ import pytesseract
 tesseract_path = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
-img = cv2.imread("texto.jpg")
+img = cv2.imread("images/texto.jpg")
 cv2.imshow("img", img)
 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

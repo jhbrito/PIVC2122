@@ -44,7 +44,7 @@ def update_circles():
     circles = circles[0]
     image_with_circles = img.copy()
     for circle in circles:
-        cv2.circle(image_with_circles, (circle[0], circle[1]), int(circle[2]), (0, 255, 0), 2)
+        cv2.circle(image_with_circles, (int(circle[0]), int(circle[1])), int(circle[2]), (0, 255, 0), 2)
     cv2.imshow("Moedas circulos", image_with_circles)
 
 def on_trackbar_dp(val):

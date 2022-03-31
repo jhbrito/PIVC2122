@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imagem = cv2.imread("cao.jpg")
+imagem = cv2.imread("images/cao.jpg")
 imagemFloat = np.array(imagem, dtype=np.float32)
 imagemFloat = imagemFloat / 255.0
 cv2.imshow("Original", imagemFloat)

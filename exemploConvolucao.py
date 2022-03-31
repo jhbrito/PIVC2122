@@ -28,7 +28,7 @@ def convolucao(imagem, filtro):
     return resultado
 
 
-img = cv2.imread("cao.jpg", 0)
+img = cv2.imread("images/cao.jpg", 0)
 img = img /255.0
 cv2.imshow("original", img)
 
